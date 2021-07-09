@@ -18,7 +18,7 @@ export class UtilsSQLite {
      * !!! in case you want your databases to be stored in YourApplication/Electron/
      * comment the below line
      */
-    this.AppName = require('../../package.json').name;
+    // this.AppName = require('../../package.json').name;
   }
   public connection(dbName: string, readOnly?: boolean /*,key?:string*/): any {
     const flags = readOnly
